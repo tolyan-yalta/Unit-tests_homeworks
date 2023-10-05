@@ -1,9 +1,6 @@
 package seminars.fourth.book;
 
-
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import seminars.fourth.card.CreditCard;
 
 import java.util.ArrayList;
 import java.util.List;
