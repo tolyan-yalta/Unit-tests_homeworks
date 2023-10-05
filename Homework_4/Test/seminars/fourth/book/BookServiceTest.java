@@ -22,14 +22,6 @@ class BookServiceTest {
      * Mockito для создания мок-объекта BookRepository.
      */
 
-    @BeforeEach
-    void setUp() {
-        // Создаём мок-объект для класса BookRepository
-//        BookRepository mockBookRepository = mock(BookRepository.class);
-        // Создание объекта класса BookService, передавая ему мок-объект в качестве аргумента
-//        BookService bookService = new BookService(mockBookRepository);
-    }
-
     @Test
     public void testFindBookById() {
         // Создаём мок-объект для класса BookRepository
